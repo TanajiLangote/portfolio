@@ -1,69 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>My Resume</title>
-</head>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-<body>
-    <div class="container">
-        <header>
-            <h1><merque >Tanaji Langote</merque></h1>
-            <p>Mail: tanajiplangote@gmail.com | Phone: (91) 93590-94227</p>
-        </header>
-        
-        <section>
-            <h2>Education</h2>
-            <div class="education">
-                <p><strong>Bachelor Of Technology </strong> | SVERI's CoE,Pandharpur</p>
-                <p>Pursuing</p>
-                <p>Brief description of your education, major, and achievements</p>
-                <p><strong>H.S.C</strong> |M.U.M,Udgir</p>
-                <p>2021</p>
-                <p>Grade : 78.33%</p>
-                <p><strong>S.S.C</strong> |V.V.H.S,Udgir</p>
-                <p> 2019 </p>
-                <p> Grade : 78.80%</p>
-            </div>
-        </section>
-        
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>C</li>
-                <li>Python</li>
-                <li>Cloud(GCP & AZURE)</li>
-                <li>Git</li>
-                </ul>
-        </section>
-        
-        <section>
-            <h2>Projects</h2>
-            <div class="projects">
-                <p><strong>Autoban</strong></p>
-                <h5>Python & Pyrogram</h5>
-                <p>Telegram Bot ban the meber who joined the group.</p>
-            </div>
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-        </section>
-        
-        <section>
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Playing Chess</li>
-                <li>Reading Books</li>
-             
-            </ul>
-        </section>
-        
-        <footer>
-            <p>&copy; 2024 <a href= "https://github.com/TanajiLangote" >Tanaji Langote</a>. All rights reserved.</p>
-        </footer>
-    </div>
-</body>
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-</html>
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #888;
+    text-decoration: none
+}
